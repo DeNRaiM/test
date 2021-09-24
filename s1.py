@@ -8,7 +8,7 @@ p.start(0)
 try:
     p.start(0)
     while True:
-        dc = int(input("введите напряжение в процентах от максимального > "))
+        dc = int(input("Введите напряжение в процентах от максимального > "))
         if dc>=0 and dc<=100:
             p.ChangeDutyCycle(dc)
 except KeyboardInterrupt:
